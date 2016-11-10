@@ -127,7 +127,7 @@ class QueryTypePassTest extends AbstractCompilerPassTestCase
                     'overridden_type' => new Reference('test.query_type_override'),
                     'other_overridden_type' => new Reference('test.query_type_other_override'),
                     'Test:Test' => new Reference('ezpublish.query_type.convention.querytypebundle_testquerytype'),
-                ]
+                ],
             ]
         );
     }
