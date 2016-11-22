@@ -58,7 +58,7 @@ class Controller extends BaseController
      *
      * @return boolean
      */
-    public function isGranted( AuthorizationAttribute $attribute )
+    public function isGranted($attribute,  $object = null)
     {
         return $this->container->get( 'security.context' )->isGranted( $attribute );
     }
